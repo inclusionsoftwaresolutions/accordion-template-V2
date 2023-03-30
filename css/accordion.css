@@ -1,0 +1,72 @@
+[data-toggle=collapse] i:before {
+  content: "\f068";
+}
+
+[data-toggle=collapse].collapsed i:before {
+  content: "\f067";
+}
+
+#accordion .card {
+  margin-bottom: 8px;
+}
+#accordion .card .card-header {
+  margin-bottom: 0px;
+}
+#accordion .card .accordion-title {
+  position: relative;
+  display: block;
+  padding: 15px 0 15px 50px;
+  background: #ececec;
+  border-radius: 0px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  transition: all 0.4s ease-in-out;
+}
+#accordion .card .accordion-title i {
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  color: #fff;
+  background-color: #aa5d00;
+  text-align: center;
+  border-right: 1px solid transparent;
+}
+#accordion .card .accordion-title:hover {
+  padding-left: 60px;
+  background: #aa5d00;
+  color: #ffffff;
+}
+#accordion .card .accordion-title:hover i {
+  border-right: 1px solid #ffffff;
+}
+#accordion .card .accordion-body {
+  padding: 40px 55px;
+  background-color: #eee;
+  border: 1px solid #aa5d00;
+}
+#accordion .card .accordion-body ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+#accordion .card .accordion-body li {
+  padding-left: 1.2rem;
+  text-indent: -1.2rem;
+}
+#accordion .card .accordion-body li:before {
+  content: "\f10a";
+  padding-right: 5px;
+  font-family: "Flaticon";
+  font-size: 16px;
+  font-style: normal;
+  color: #213744;
+}
+
+/*# sourceMappingURL=accordion.css.map */
